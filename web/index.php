@@ -8,3 +8,4 @@ $app = new Silex\Application();
 require __DIR__.'/../app/routes.php';
 
 $app->run();
+echo "bonjour";
